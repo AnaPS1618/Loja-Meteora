@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body{
+    height: 100%;
+
+}
+
+header{
+    width: 100%;
+    height: 58px;
+    padding: 0px 2%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#menu_nav_default{
+    width: 100%;
+    height: 58px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#menu_hamburguer{
+    display: none;
+}
+
+#menu_hamburguer_img{
+    cursor: pointer;
+}
+
+#menu_nav ul{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    border: solid 2px black;
+    border-radius: 5px
+}
+
+#menu_nav li{
+    padding: .3rem 1rem;
+}
+
+#menu_nav li:hover {
+    background: #0003;
+}
+
+#logo_meteora{
+    width: 132px;
+    height: 32px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#search_box{
+    display: flex;
+    justify-content: end;
+    gap: 6px;
+}
+
+#caixa_pesquisa{
+    width: 170px;
+    height: 38px;
+    border: 1px solid #CED4DA;
+    padding-left: 2%;
+    outline: none;
+}
+
+#btn_buscar{
+    width: 80px;
+    height: 37px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+  
+#carousel-slide {
+    display: none;
+    width: 100%;
+    height: 500px;
+}
+  
+#carousel-slide img{
+    width: 100vw;
+    height: auto;
+    background-color: #343A40;
+  }
+  
+@keyframes slide {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+#categorias{
+    width: 100%;
+    height: auto;
+    padding: 0 0 2% 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#categorias h2{
+    padding: 3% 0 10px 0;
+}
+
+#categorias_part{
+    width: 100%;
+}
+
+#categoria_img{
+    display: inline-block;
+    margin: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+#categoria_img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#categoria_img:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#categoria_img p{
+    width: 160px;
+    height: 35px;
+    line-height: 30px;
+    color: white;
+    margin-top: -3px;
+    background-color: black;
+}
+
+#produtos{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#produtos_part{
+    width: 100%;
+}
+
+#produtos_espec{
+    width: 350px;
+    height: 615px;
+    margin: 20px;
+    display: inline-block;
+    text-align: start;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#produtos_espec:hover{
+    -webkit-transform: scale(0.8);
+    transform: scale(0.95);
+}
+
+
+#produtoDetalhes{
+    width: 100%;
+    height: 165px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+#produtoDescricao p{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+
+
+
+#verMais{
+    width: 95px;
+    height: auto;
+    padding: 9px 16px 9px 16px;
+    background-color: #9353FF;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#verMais:hover{
+    background-color: #DAFF01;
+    color: black;
+}
+
+#extra{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 50px;
+}
+
+#extra h2{
+    padding: 2% 0 0 0;
+    text-align: center;
+    color: white;
+}
+
+#facilidades{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding: 40px 15px;
+}
+
+#facilidades_img_desc{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#facilidades_Desc strong{
+    color: #DAFF01;
+    font-size: 16px;
+}
+
+#facilidades_Desc p{
+    width: 200px;
+    height: 40px;
+    color: white;
+    padding-top: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#facilidades_Desc img{
+    width: 72px;
+    height: 72px;
+}
+
+#email_Novidades{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#email_container{
+    width: 729px;
+    height: 190px;
+    border: 2px solid black;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#email_container p{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#email_cont{
+    display: flex;
+    justify-content: center;
+}
+
+#email_cont input{
+    width: 40%;
+    height: 38px;
+    outline: none;
+    padding-left: 2%;
+    overflow: hidden;
+}
+
+#email_cont button{
+    width: 84px;
+    height: 38px;
+    border: none;
+    background-color: #9353FF;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 17px 23px 17px 23px;
+}
+
+#mensagemCadastradoEmail{
+    display: none;
+    width: 40%;
+    height: 136px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.77);
+    box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.77);
+}
+
+#mensagemCadastradoEmail p{
+    padding: 2%;
+    font-size: 20px;
+}
+
+#mensagemCheck{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#fecharMensagem{
+    cursor: pointer;
+}
+
+#fecharMensagem:hover{
+    background-color: #CED4DA;
+}
+
+#emailCadastradoSucesso{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2%;
+}
+
+#emailCadastradoSucesso strong{
+    color: white;
+    font-size: 20px;
+}
+
+
+/*nova página, descrição, produtos*/
+
+#produtoSinglePag{
+    display: flex;
+    
+}
+
+#produtoSinglePag img{
+    padding: 10px;
+}
+
+#centralFixedJanela{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#janelaProdutoSingle{
+    height: auto;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#janela_check_cabecalho{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 28px 18px 16px;
+}
+
+#janela_check_cabecalho img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#janela_check_cabecalho img:hover{
+    background-color: #CED4DA;
+}
+
+#janela_check{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+#janela_check img{
+    width: 30px;
+    height: 30px;
+}
+
+
+#produtoDetalhesJanelaSingleUnique{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 5px 10px 0 0;
+    margin: 10px 0;
+}
+
+#produtoDescricaoJanelaSingle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#produtoDescricaoJanelaSingle p{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+#produtoDescricaoJanelaSingle span{
+    color: #ADB5BD;
+    border-bottom: 1px solid #CED4DA;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+#produtoDescricaoJanelaSingle strong{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#escolhendoDetalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+    border-bottom: 1px solid #CED4DA;
+}
+
+#escolhendoCores{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+#escolhendoCores div{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#janelaSelecionarTamanho{
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: black;
+}
+
+#escolhendoTamanhos{
+    width: 100%;
+    height: auto;
+
+}
+
+#escolhendoTamanhos div{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.selecionado {
+    background-color: lightblue;
+}
+
+
+#adccSacola{
+    width: 180px;
+    border: none;
+    color: white;
+    background-color: #9353FF;
+    padding: 9px 16px 9px 16px;
+    cursor: pointer;
+}
+
+#adccSacola:hover{
+    background-color: #DAFF01;
+    color: black;
+}

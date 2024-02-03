@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+@media screen and (max-width: 995px) and (max-height: 1050px){
+    #categoria_img{
+        display: inline-block;
+        margin: 10px 20px;
+        cursor: pointer;
+        overflow: hidden;
+    
+    }
+
+    #produtos_part{
+        width: 100%;
+    }
+    
+    #produtos_espec{
+        width: 350px;
+        height: 615px;
+        margin: 10px;
+        display: inline-block;
+        text-align: start;
+        border: 1px solid lightgray;
+        overflow: hidden;
+    }
+
+    #facilidades{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px;
+        padding: 40px 15px;
+    }
+    
+    #facilidades_img_desc{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+
+    #produtoSinglePag{
+        display: block;
+        padding-bottom: 25px;
+    }
+
+
+    #centralFixedJanela{
+        margin: 0;
+        height: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    #produtoDetalhesJanelaSingleUnique{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 350px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 22px;
+        padding: 10px;
+        margin-top: -13px;
+        border: 1px solid #CED4DA;
+    }
+    
+}
+
+@media screen and (max-width: 810px) and (max-height: 1285px){
+    header{
+        width: 100%;
+        height: 58px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+    }
+    
+    nav{
+        width: 430px;
+        height: auto;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    #logo_meteora{
+        width: 98px;
+        height: 24px;
+    }
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+    }
+
+    #categoria_img{
+        display: inline-block;
+        margin: 10px 20px;
+        cursor: pointer;
+        overflow: hidden;
+    
+    }
+
+    #produtos_part{
+        width: 100%;
+    }
+    
+    #produtos_espec{
+        width: 350px;
+        height: 615px;
+        margin: 10px;
+        display: inline-block;
+        text-align: start;
+        border: 1px solid lightgray;
+        overflow: hidden;
+    }
+
+    #facilidades{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 52px;
+        padding: 40px 15px;
+    }
+    
+    #facilidades_img_desc{
+        display: flex;
+        align-items: center;
+        gap: 34px;
+    }
+
+
+    #produtoSinglePag{
+        display: block;
+        padding-bottom: 25px;
+    }
+
+
+    #centralFixedJanela{
+        margin: 0;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    #produtoDetalhesJanelaSingleUnique{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 350px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 22px;
+        padding: 10px;
+        margin-top: -13px;
+        border: 1px solid #CED4DA;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 765px) and (max-height: 1285px){
+    header{
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+    }
+
+    #menu_nav_default{
+        display: none;
+    }
+
+    #menu_hamburguer{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2%;
+    }
+
+
+    #logo_meteora_mobile{
+        width: 150px;
+        height: 50px;
+        background-image: url('../img/Logo\ mobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #menu_hamburguer_img{
+        width: 30px;
+        height: 20px;
+    }
+
+    #menu_nav{
+        width: 170px;
+        height: auto;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        padding: 3%;
+        background-color: #343A40;
+    }
+
+    #menu_nav img{
+        width: 19px;
+        cursor: pointer;
+        float: right;
+    }
+
+    #menu_nav img:hover{
+        background-color: #CED4DA;
+    }
+
+    #menu_nav ul{
+        border: none;
+    }
+
+    #menu_nav li{
+        width: 130px;
+        line-height: 23px;
+        padding: 3%;
+        text-align: start;
+        border-bottom: 1px solid #CED4DA;
+    }
+
+    #menu_nav a{
+        width: 100px;
+        font-size: 16px;
+        padding: 5% 0;
+    }
+
+    #menu_nav a:hover{
+        color: #DAFF01;
+    }
+
+    #search_box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        padding: 40px;
+        background-color: white;
+    }
+    
+    #caixa_pesquisa{
+        width: 250px;
+        height: 38px;
+        border: 1px solid black;
+        padding-left: 2%;
+        outline: none;
+    }
+    
+    #btn_buscar{
+        width: 80px;
+        height: 37px;
+        border: 1px solid black;
+        color: black;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    #btn_buscar:hover{
+        background-color: #DAFF01;
+    }
+
+
+    #email_Novidades{
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #email_container{
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        text-align: center;
+        padding: 2% 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    #email_container p{
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    #email_cont{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #email_cont input{
+        width: 300px;
+        height: 38px;
+        outline: none;
+        overflow: hidden;
+    }
+    
+    #email_cont button{
+        width: 84px;
+        height: 38px;
+        border: none;
+        background-color: #9353FF;
+        color: white;
+    }
+
+    #mensagemCadastradoEmail{
+        display: none;
+        width: 60%;
+        height: auto;
+        position: fixed;
+        z-index: 999;
+        top: 50px;
+        left: 50px;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.77);
+        -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.77);
+        box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.77);
+    }
+
+    #mensagemCadastradoEmail p{
+        padding: 2% 5%;
+    }
+
+    #centralFixedJanela{
+    }
+
+    #produtoSinglePag{
+        display: block;
+        padding-bottom: 25px;
+    }
+
+
+    #centralFixedJanela{
+        margin: 0;
+        height: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    #produtoDetalhesJanelaSingleUnique{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 350px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 22px;
+        padding: 10px;
+        margin-top: -13px;
+        border: 1px solid #CED4DA;
+    }
+
+}
+
+@media screen and (max-width: 500px) and (max-height: 900px){
+    #centralFixedJanela{
+        margin: 0;
+        height: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+
+@media screen and (max-width: 400px) and (max-height: 900px){
+    #produtoSinglePag{
+        display: block;
+        padding-bottom: 25px;
+    }
+
+    #produtoSinglePag img{
+        margin: 0 auto;
+        width: 320px;
+        padding: 10px;
+    }
+
+    #centralFixedJanela{
+        margin: 0;
+        height: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+    #produtoDetalhesJanelaSingleUnique{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 310px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 22px;
+        padding: 10px;
+        margin-top: -13px;
+        border: 1px solid #CED4DA;
+    }
+}

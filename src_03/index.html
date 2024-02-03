@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/carousel.css">
+    <link rel="stylesheet" href="./CSS/medidas.css">   
+
+    <link rel="shortcut icon" href="#">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav id="menu_nav_default">
+            <img src="./img/Logo desktop.png" alt="logo_meteora" id="logo_meteora">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Nossas lojas</a></li>
+                <li><a href="">Novidades</a></li>
+                <li><a href="">Promoções</a></li>
+            </ul>
+        </nav>
+
+        <div id="menu_hamburguer">
+            <div id="logo_meteora_mobile"></div>
+            <img src="./img/icon-menu.png" alt="menu_hamburguer" id="menu_hamburguer_img">
+            <nav id="menu_nav" style="display: none;">
+                <img src="./img/marca-cruzada 1.png" alt="fechar menu" id="fechar_menu">
+                <br>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Nossas lojas</a></li>
+                    <li><a href="">Novidades</a></li>
+                    <li><a href="">Promoções</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="search_box">
+            <input type="search" name="caixa_pesquisa" id="caixa_pesquisa" 
+            placeholder="Digite o produto">
+            <button id="btn_buscar">Buscar</button>
+        </div>
+    </header>
+
+
+    <div class="carousel-container">
+        <div class="carousel">
+          <div class="slide" id="slide1"></div>
+          <div class="slide" id="slide2"></div>
+          <div class="slide" id="slide3"></div>
+        </div>
+        <button class="prev"><img src="./img/bx-top-arrow.png" alt="arrowLeft"></button>
+        <button class="next"><img src="./img/icon-arrow-left.png" alt="arrowRight"></button>
+        <div class="indicators"></div>
+    </div>
+
+    <section id="categorias">
+        <h2>Busque por categoria:</h2>    
+        <div id="categorias_part">
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos que estão bombando!</h2>
+        <div id="produtos_part">
+        </div>
+    </section>
+
+    <section id="extra">
+        <h2>Conheça todas as nossas facilidades</h2>
+        <div id="facilidades">
+        </div>
+    </section>
+
+    <section id="email_Novidades">
+        <div id="email_container">
+            <p>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</p>
+            <div id="email_cont">
+                <br>
+                <input type="email" name="emailPromocao" id="emailPromocao"
+                placeholder="Digite seu email">
+                <button id="enviarEmail">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+    </footer>
+
+    <div id="mensagemCadastradoEmail">
+        <div id="emailCadastradoSucesso">
+            <div id="mensagemCheck">
+                <img src="./img/check-circle.png" alt="ok">
+                <strong>E-mail cadastrado com sucesso</strong>
+            </div>
+
+            <img src="./img/⭐️ Icon.png" alt="fechar_mensagem" id="fecharMensagem">
+        </div>
+        <p>Em breve você receberá novidades exclusivas da meteora!</p>
+    </div>
+
+    
+    <script src="./JS/app.js"></script>
+    <script src="./JS/categorias.js"></script>
+    <script src="./JS/produtos.js"></script>
+    <script src="./JS/facilidades.js"></script>
+    <script src="./JS/email.js"></script>
+    <script src="./JS/carousel.js"></script>
+</body>
+</html>

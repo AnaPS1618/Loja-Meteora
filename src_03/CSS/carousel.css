@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    width: 100dvw;
+    height: auto;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    width: 100dvw;
+    min-width: 100dvw;
+    height: auto; /* Ajuste a altura conforme necessário */
+    background-size: cover;
+    flex-shrink: 0;
+  }
+
+  #slide1{
+    width: 100dvw;
+    padding: 15%;
+    background-image: url('../img/Banner\ 1\ -\ Desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #slide2{
+    width: 100dvw;
+    height: auto;
+    background-image: url('../img_banner/Imagem\ banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #slid2Text{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 10% 50px 0 0;
+    color: white;
+  }
+
+  #slid2Text strong{
+    font-size: 50px;
+  }
+
+  #slid2Text p{
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  #slide3{
+    width: 100dvw;
+    height: auto;
+    background-image: url('../img_banner/Imagem\ banner\ 3\(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .indicator {
+    width: 40px;
+    height: 5px;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: #333;
+  }
+
+
+@media screen and (max-width: 768px) and (max-height: 1025px){
+    #slide1{
+        width: 100dvw;
+        height: auto;
+        padding: 30%;
+        background-image: url('../img_banner/Image.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    #slide2{
+        width: 100dvw;
+        height: 20px;
+        padding: 30%;
+        background-image: url('../img_banner/Imagem\ banner2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    #slid2Text{
+      width: 300px;
+      padding: 0;
+      margin: -55px 60px;
+      display: flex;
+      text-align: center;
+      color: white;
+    }
+  
+    #slid2Text strong{
+      font-size: 35px;
+    }
+  
+    #slid2Text p{
+      margin: 0 auto;
+      font-size: 15px;
+    }
+
+    #slide3{
+        width: 100dvw;
+        height: auto;
+        padding: 30%;
+        background-image: url('../img_banner/Imagem\ banner\ 3\(2\).png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 480px) and (max-height: 1025px){
+    #slide1{
+        width: 100dvw;
+        height: auto;
+        padding: 50%;
+        background-image: url('../img_banner/Image\(1\).png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    #slide2{
+        width: 100dvw;
+        height: auto;
+        padding: 20%;
+        background-image: url('../img_banner/Imagem\ banner\ 2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    #slid2Text{
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      padding: 200px 0 0 0;
+      color: white;
+    }
+  
+    #slid2Text strong{
+      font-size: 50px;
+    }
+  
+    #slid2Text p{
+      margin: 0 auto;
+      font-size: 20px;
+    }
+
+    #slide3{
+        width: 100dvw;
+        height: auto;
+        padding: 20%;
+        background-image: url('../img_banner/Imagem\ banner\ 3\ \(1\).png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
