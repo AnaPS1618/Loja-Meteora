@@ -8,4 +8,4 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 
 Visualize e brinque com o carousel:
 
-<img src="pag1-meteora.png" alt="part1" width='700px' height='100px'>
+<img src="pag1-meteora.png" alt="part1" width='900px' height='150px'>
