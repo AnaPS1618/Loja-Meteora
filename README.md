@@ -22,4 +22,4 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 
 **Visualize facilidades, interaja com o envio de emai:**
 
-<img src="pag4-meteora.png" alt="part1" width='900px' height='550px'>
+<img src="pag4-meteora.png" alt="part1" width='900px' height='300px'>
