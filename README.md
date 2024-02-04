@@ -14,4 +14,4 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 
 **Explore categorias:**
 
-<img src="pag2-meteora.png" alt="part1" width='900px' height='150px'>
+<img src="pag2-meteora.png" alt="part1" width='900px' height='180px'>
