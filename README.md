@@ -23,3 +23,7 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 **Visualize facilidades, interaja com o envio de emai:**
 
 <img src="pag4-meteora.png" alt="part1" width='900px' height='300px'>
+
+**Clique em 'ver mais' e abra a janela para selecionar a cor e o tamaho:**
+
+<img src="pag5-meteora.png" alt="part1" width='900px' height='300px'>
