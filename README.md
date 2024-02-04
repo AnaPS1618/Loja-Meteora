@@ -8,6 +8,10 @@ Um loja de roupas com funcionalidades, raponsividade e acessivel para ambientes 
 
 Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa. 
 
-Visualize e brinque com o carousel:
+**Visualize e brinque com o carousel:**
 
 <img src="pag1-meteora.png" alt="part1" width='900px' height='150px'>
+
+**Explore categorias:**
+
+<img src="pag2-meteora.png" alt="part1" width='900px' height='150px'>
