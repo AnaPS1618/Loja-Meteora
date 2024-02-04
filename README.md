@@ -31,3 +31,5 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 **Tambem no ambiente mobilide:**
 
 <img src="pag6-meteora.png" alt="part1" width='300px' height='700px'>
+
+## Visite o site: <a href='https://anasouza.top/src_03/index.html'>Clique aqui</a>
