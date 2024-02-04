@@ -168,22 +168,6 @@ function produtoSozinho(){
     }
 }
 
-function selecionarTamanho() {
-    let inputs = document.querySelectorAll('input[name="checkTamanho"]');
-    
-    inputs.forEach(function(input) {
-        input.addEventListener('click', function() {
-            inputs.forEach(function(otherInput) {
-                otherInput.parentElement.classList.remove('selecionado');
-            });
-
-            if (input.checked) {
-                input.parentElement.classList.add('selecionado');
-            }
-        });
-    });
-
-}
 
 let fecharJanelaDesc = document.querySelector('#janelaProdutoDescFechar')
 
