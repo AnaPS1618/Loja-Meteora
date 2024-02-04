@@ -10,7 +10,7 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 
 **Visualize e brinque com o carousel:**
 
-<img src="pag1-meteora.png" alt="part1" width='900px' height='150px'>
+<img src="pag1-meteora.png" alt="part1" width='900px' height='200px'>
 
 **Explore categorias:**
 
@@ -19,3 +19,7 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 **Explore o catálago**
 
 <img src="pag3-meteora.png" alt="part1" width='900px' height='550px'>
+
+**Visualize facilidades, interaja com o envio de emai:**
+
+<img src="pag4-meteora.png" alt="part1" width='900px' height='550px'>
