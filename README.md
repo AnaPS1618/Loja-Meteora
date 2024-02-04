@@ -27,3 +27,7 @@ Utilizando HTML, CSS e JavaScript, foi possivel criar uma interface interativa.
 **Clique em 'ver mais' e abra a janela para selecionar a cor e o tamaho:**
 
 <img src="pag5-meteora.png" alt="part1" width='900px' height='550px'>
+
+**Tambem no ambiente mobilide:**
+
+<img src="pag6-meteora.png" alt="part1" width='150px' height='700px'>
