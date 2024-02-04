@@ -2,7 +2,7 @@
 
 Brm-bindo a loja Meteora! 
 
-![]<img src="pag7-meteora.png" alt="part1" width='900px' height='50px'>
+<img src="pag7-meteora.png" alt="part1" width='1000px' height='50px'>
 
 Um loja de roupas com funcionalidades, raponsividade e acessivel para ambientes mobile. 
 
